@@ -1,0 +1,50 @@
+<div class="nav-container">
+  <a id="top"></a>
+  <nav>
+    <div class="nav-bar">
+      <div class="module left">
+        <a href="{{ site.baseurl }}">
+          <img class='logo logo-dark' src="/img/plexmatelogo.png">
+        </a>
+      </div>
+      <div
+           class="module widget-handle mobile-toggle right
+           visible-sm visible-xs">
+        <i
+           class="ti-menu"></i>
+      </div>
+      <div
+           class="module-group right">
+        <div
+           class="module left">
+          <ul
+           class="menu">
+            {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li>
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+
+            <li>
+              <a class="page-link" href="http://app.plexmate.com">Login with
+                Dwolla</a>
+            </li>
+          </ul>
+        </div>
+        <!--end
+          of
+          menu
+          module-->
+      </div>
+    </div>
+</div>
+<!--end
+  of
+  module
+  group-->
+  </div>
+  </nav>
+  </div>
+
