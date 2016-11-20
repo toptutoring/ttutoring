@@ -11,12 +11,13 @@ function LandlordSignUp() {
     var $email = $('#land-email').val();
     var $managed_units = $('#managed-units-count').val();
     var $password = $('#land-password').val();
+    var $landlord = true;
 
     // Send the data using post
     $.ajax({
       type: "POST",
-      url: "http://app.plexmate.com/users",
-      data: { user: { name: $name, email: $email, password: $password } },
+      url: "http://app.plexmate.com/api/signups",
+      data: { user: { name: $name, email: $email, password: $password , landlord: $landlord} },
     });
 
     // Submit message
