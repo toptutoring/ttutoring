@@ -15,29 +15,31 @@ layout: default
             <div class="form-container col-md-6 col-md-offset-3">
               <form method="POST" name="sign-up" id="landlord-sign-up" class="signup-form">
 
-                <div class="col-md-6 input-opacity">
-                  <input class="form-control" type="text" name="name" id="land-first-name" placeholder="First Name">
+                <div class="col-md-6">
+                  <input class="form-control" type="text" name="name" id="land-first-name" placeholder="First Name" required>
                 </div>
 
-                <div class="col-md-6 input-opacity">
-                  <input class="form-control" type="text" name="name" id="land-last-name" placeholder="Last Name">
+                <div class="col-md-6">
+                  <input class="form-control" type="text" name="name" id="land-last-name" placeholder="Last Name" required>
                 </div>
 
-                <div class="col-md-12 input-opacity">
-                  <input class="form-control" type="text" name="email" id="land-email" placeholder="Email">
+                <div class="col-md-12">
+                  <input class="form-control" type="text" name="email" id="land-email" placeholder="Email" required>
                 </div>
 
-                <div class="col-md-12 input-opacity">
+                <div class="col-md-12">
                   <input class="form-control" type="text" name="managed-units-count" id="managed-units-count" placeholder="Number of Units Managed">
                 </div>
 
-                <div class="col-md-6 input-opacity">
-                  <input class="form-control" type="password" name="password" id="land-password" placeholder="Create a Password">
+                <div class="col-md-6">
+                  <input class="form-control" type="password" name="password" id="land-password" placeholder="Create a Password" required>
                 </div>
 
-                <div class="col-md-6 input-opacity">
-                  <input class="form-control" type="password" name="password_confirm" id="password-confirm" placeholder="Confirm Password">
+                <div class="col-md-6">
+                  <input class="form-control" type="password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
                 </div>
+
+                <div class="form-errors"></div>
 
                 <input class="form-control" type="hidden" name="landlord" id="landlord" value="true">
 
