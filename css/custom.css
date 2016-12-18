@@ -2,8 +2,76 @@
 .input-opacity {
   opacity: 0.7;
 }
-
 .form-errors {
   position: relative;
   top: -10px;
+}
+nav.transparent {
+  background: none;
+}
+.absolute {
+  position: absolute;
+}
+nav.transparent .nav-bar {
+  background: rgba(0, 0, 0, 0.9);
+}
+nav.transparent.fixed {
+  background: none;
+}
+nav.transparent .logo-dark {
+  display: inline;
+}
+@media (max-width: 990px) {
+  nav.transparent .nav-open .menu > li > a {
+    color: #fff;
+  }
+}
+nav.transparent.fixed .menu > li > a {
+  opacity: 1;
+  color: #fff;
+}
+.overlay:before {
+  opacity: 0.7;
+}
+.container-white {
+  background-color: white;
+}
+h1.large {
+  font-size: 50px;
+}
+.footer-2 {
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+input.btn-transparent {
+  background: none;
+}
+.white-font {
+  color: #fff;
+}
+a, a:hover, a:visited, a.focus {
+  color: #59a4f0;
+}
+.btn, .btn:visited {
+  color: #59a4f0;
+}
+.btn, .btn:hover, .btn:visited {
+  border: 2px solid #59a4f0;
+}
+.btn:hover {
+  background: #59a4f0;
+}
+.img-icon {
+  max-width: 55%;
+}
+img {
+  height: auto;
+}
+span.subhead:before, span.subhead:after {
+  content: "";
+  width: 60px;
+  height: 6px;
+  border-top: 1px solid white;
+  display: inline-block;
+  margin: 0 10px;
 }
