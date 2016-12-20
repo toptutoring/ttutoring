@@ -38,13 +38,18 @@ nav.transparent.fixed .menu > li > a {
 }
 h1.large {
   font-size: 50px;
+  font-weight: 300;
 }
 .footer-2 {
   padding-bottom: 35px;
   padding-top: 35px;
 }
-input.btn-transparent {
-  background: none;
+input.btn-blue {
+  background: #59a4f0;
+  border: 2px solid #59a4f0;
+}
+input.btn-blue:hover {
+  background: #4890da;
 }
 .white-font {
   color: #fff;
@@ -74,4 +79,53 @@ span.subhead:before, span.subhead:after {
   border-top: 1px solid white;
   display: inline-block;
   margin: 0 10px;
+}
+section.white-cover {
+  background: #f9f9f9;
+}
+div.bordered-block {
+  border-top: 1px solid #d8dee2;
+  border-radius: 5px;
+  padding: 65px 20px 65px 20px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #d8dee2;
+  padding-top: 65px 0;
+  margin-top: 50px;
+}
+
+.bordered-block.no-padding {
+  margin-top: 25px;
+  padding: 0;
+}
+
+input.signup-input {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+}
+.about {
+  padding-left: 13%;
+}
+.contact {
+  padding-bottom: 5%;
+}
+.image-square {
+  height: 100vh;
+  max-height: 100%;
+}
+section.map-section {
+  padding: 58px 0;
+}
+.inline-icons {
+  margin-right: 20px;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.map iframe {
+  width: 100%;
 }
