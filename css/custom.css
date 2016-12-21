@@ -2,76 +2,98 @@
 .input-opacity {
   opacity: 0.7;
 }
+
 .form-errors {
   position: relative;
   top: -10px;
 }
+
 nav.transparent {
   background: none;
 }
+
 .absolute {
   position: absolute;
 }
+
 nav.transparent .nav-bar {
   background: rgba(0, 0, 0, 0.9);
 }
+
 nav.transparent.fixed {
   background: none;
 }
+
 nav.transparent .logo-dark {
   display: inline;
 }
+
 @media (max-width: 990px) {
   nav.transparent .nav-open .menu > li > a {
     color: #fff;
   }
 }
+
 nav.transparent.fixed .menu > li > a {
   opacity: 1;
   color: #fff;
 }
+
 .overlay:before {
   opacity: 0.7;
 }
+
 .container-white {
   background-color: white;
 }
+
 h1.large {
   font-size: 50px;
   font-weight: 300;
 }
+
 .footer-2 {
   padding-bottom: 35px;
   padding-top: 35px;
 }
+
 input.btn-blue {
   background: #59a4f0;
   border: 2px solid #59a4f0;
 }
+
 input.btn-blue:hover {
   background: #4890da;
 }
+
 .white-font {
   color: #fff;
 }
+
 a, a:hover, a:visited, a.focus {
   color: #59a4f0;
 }
+
 .btn, .btn:visited {
   color: #59a4f0;
 }
+
 .btn, .btn:hover, .btn:visited {
   border: 2px solid #59a4f0;
 }
+
 .btn:hover {
   background: #59a4f0;
 }
+
 .img-icon {
   max-width: 55%;
 }
+
 img {
   height: auto;
 }
+
 span.subhead:before, span.subhead:after {
   content: "";
   width: 60px;
@@ -80,13 +102,15 @@ span.subhead:before, span.subhead:after {
   display: inline-block;
   margin: 0 10px;
 }
+
 section.white-cover {
   background: #f9f9f9;
 }
+
 div.bordered-block {
   border-top: 1px solid #d8dee2;
   border-radius: 5px;
-  padding: 65px 20px 65px 20px;
+  padding: 65px 20px 15px 20px;
   font-size: 14px;
   background-color: #fff;
   border: 1px solid #d8dee2;
@@ -105,27 +129,56 @@ input.signup-input {
   border-radius: 3px;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
 }
+
 .about {
   padding-left: 13%;
 }
+
 .contact {
   padding-bottom: 5%;
 }
+
 .image-square {
   height: 100vh;
   max-height: 100%;
 }
+
 section.map-section {
   padding: 58px 0;
 }
+
 .inline-icons {
   margin-right: 20px;
 }
 
 .form-container {
-  padding: 20px;
+  padding: 35px 20px 35px 20px;
+}
+
+.form-container .short-description {
+  padding: 10px;
 }
 
 .map iframe {
   width: 100%;
+}
+
+textarea.signup-input {
+  resize: none;
+  padding: 16px 20px 9px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+}
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+.form-container.btn-blue {
+  min-width: 0;
+}
+
+.select-option i {
+  right: 30px;
 }
