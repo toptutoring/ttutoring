@@ -20,11 +20,11 @@
                 <div class="module left">
                     <ul class="menu">
                       {% for my_page in site.pages %}
-                      {% if my_page.title %}
-                      <li>
-                        <a class="page-link logo-dark" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                      </li>
-                      {% endif %}
+                        {% if my_page.title %}
+                          <li>
+                            <a class="page-link logo-dark" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                          </li>
+                        {% endif %}
                       {% endfor %}
                       <li>
                         <a class="page-link logo-dark" href="http://app.toptutoring.com">Sign in</a>

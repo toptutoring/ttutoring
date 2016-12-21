@@ -14,37 +14,34 @@ permalink: /contact/
       </div>
       <div class="bordered-block col-sm-8 col-sm-offset-2 no-padding">
         <div class="form-container clearfix">
-          <p class="short-description">
+          <p id="short-description" class="text-center">
             We’d love to hear from you. Please fill out the following form with any questions or to request more information about our services. We'll get back to you shortly.
           </p>
           <script type="text/javascript">var submitted=false;</script>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
-            {window.location='contactsubmit.html';}"></iframe>
+            {document.getElementById('short-description').innerHTML = 'Thank you! Your message has been received.';}"></iframe>
           <form action="https://docs.google.com/forms/d/1jdebJ6lksNeJK3BPMofnqNmWyl_IWo9PBc7PvdCXHaE/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
 
             <div class="col-sm-6 row-col">
               <div class="box">
                 <input type="text" name="entry.1144948821" value="" class="ss-q-short valid name form-control signup-input" id="entry_1144948821" dir="auto" aria-label="Name  " title="" placeholder="Name">
 
-                <input type="text" name="entry.1850342302" value="" class="ss-q-short valid mail form-control signup-input" id="entry_1850342302" dir="auto" aria-label="Email  " title="" placeholder="Email">
+                <input type="text" name="entry.1850342302" value="" class="ss-q-short valid mail form-control signup-input" id="entry_1850342302" dir="auto" aria-label="Email  " title="" placeholder="Email" required>
 
                 <input type="text" name="entry.1316140474" value="" class="ss-q-short valid phone2 form-control signup-input" id="entry_1316140474" dir="auto" aria-label="Phone  " title="" placeholder="Phone">
 
-                <input type="text" name="entry.1385223144" value=""
-                class="ss-q-short valid subject form-control signup-input"
-                id="entry_1385223144" dir="auto" aria-label="Subject" title="" placeholder="Subject">
+                <input type="text" name="entry.1385223114" value="" class="ss-q-short valid subject form-control signup-input" id="entry_1385223114" dir="auto" aria-label="Subject" title="" placeholder="Subject">
               </div>
             </div>
             <div class="col-sm-6">
               <div class="box">
-                <textarea placeholder="Type a message here..." name="entry.1976405812" class="ss-q-long valid signup-input" id="entry_1976405812" dir="auto" aria-label="Message" rows="7"></textarea>
+                <textarea placeholder="Type a message here..." name="entry.1976405812" class="ss-q-long valid signup-input" id="entry_1976405812" dir="auto" aria-label="Message" rows="7" required></textarea>
               </div>
             </div>
-          </form>
-
             <div class="col-sm-6 row-col">
               <input type="submit" name="submit" value="Send your message" id="ss-submit", class="btn btn-lg btn-blue">
             </div>
+          </form>
         </div>
       </div>
     </div>
