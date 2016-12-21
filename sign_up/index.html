@@ -1,0 +1,55 @@
+---
+layout: default
+title: Sign up
+permalink: /sign_up/
+---
+<div class="main-container">
+  <section class="white-cover fullscreen">
+    <div class="container v-align-transform  sign-up-container text-center">
+      <div class="col-md-6 col-md-offset-3 bordered-block">
+        <h2>Sign up</h2>
+        <p>Already have an account?  <a href="http://app.toptutoring.com">Sign in.</a></p>
+        <div class="form-container col-md-10 col-md-offset-1">
+          <form method="POST" name="sign-up" id="sign-up" class="signup-form">
+
+            <div class="col-md-6">
+              <input class="form-control signup-input" type="text" name="name" id="first-name" placeholder="First Name" required>
+            </div>
+
+            <div class="col-md-6">
+              <input class="form-control signup-input" type="text" name="name" id="last-name" placeholder="Last Name" required>
+            </div>
+
+            <div class="col-md-12">
+              <input class="form-control signup-input" type="text" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="col-md-6">
+              <input class="form-control signup-input" type="password" name="password" id="password" placeholder="Create a Password" required>
+            </div>
+
+            <div class="col-md-6">
+              <input class="form-control signup-input" type="password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="col-md-12 select-option">
+              <i class="ti-angle-down"></i>
+              <select class="wpcf7-form-control wpcf7-select">
+                <option value="">Choose an academic type</option>
+                <option value="0">SAT</option>
+                <option value="1">PSAT</option>
+              </select>
+            </div>
+
+            <div class="form-errors"></div>
+
+            <div class="col-md-12">
+              <input class="btn btn-lg btn-blue" type="submit" name="submit" id="signupSubmit" value="Sign up">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
