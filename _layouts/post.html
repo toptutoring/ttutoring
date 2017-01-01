@@ -7,20 +7,22 @@ layout: default
       <div class="row">
         <div class="col-md-9 mb-xs-24">
           <div class="post-snippet mb64">
-            <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
+            {% if page.img %}
+              <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
+            {% endif %}
             <div class="post-title">
               <h4 class="inline-block">
                 {% if page.date_visible %}
-                  <span class="label">{{ page.date }}</span>
+                  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
                 {% endif %}
-                {{ page.title }}
+                <span class="post-title" itemprop="name headline">{{ page.title }}</span>
               </h4>
             </div>
             <ul class="post-meta">
               {% if page.author %}
               <li>
                 <i class="ti-user"></i>
-                <span>Written by {{ page.author }}</span>
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
               </li>
               {% endif %}
             </ul>
