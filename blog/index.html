@@ -14,14 +14,16 @@ permalink: /blog/
               {% for post in site.posts %}
                 <div class="row mb16 mb-xs-0">
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                      <h6 class="uppercase mb16 mb-xs-8">July 2, 2015</h6>
+                      {% if post.date_visible %}
+                        <h6 class="uppercase mb16 mb-xs-8">{{ post.date | date: '%B %d, %Y' }}</h6>
+                      {% endif %}
                       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                     </div>
                 </div>
 
                 <div class="row mb32 mb-xs-16">
                   <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <img width="1024" height="683" src="{{site}}{{ post.img }}" class="mb32 mb-xs-16 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
+                    <img width="1024" height="683" src="{{site.url}}/img/{{ post.img }}" class="mb32 mb-xs-16 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
                     <p class="lead">
                       {{ post.excerpt }}
                     </p>
@@ -34,7 +36,7 @@ permalink: /blog/
                         <hr>
                     </div>
                 </div>
-                {% endfor %}
+              {% endfor %}
 
             </div>
           </div>

@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The New SAT Writing Section For 2016"
-date:   2016-07-26
+date:   July 26, 2016
 date_visible: false
 categories: sat tutoring
 img: beagle_reading.jpg
-author: Tad P.
+author: TP
 ---
 Following is a quotation from Dave Coleman, the president of the College Board, concerning the new SAT format:
 

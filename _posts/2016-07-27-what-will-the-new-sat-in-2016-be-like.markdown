@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "What Will the New SAT in 2016 Be Like?"
-date:   2016-07-27 17:33:59 -0700
-date_visible: false
+date:   July 27, 2016
+date_visible: true
 categories: sat tutoring
 img: SAT_scantron.jpg
-author: Tad P.
+author: TP
 ---
 The College Board has revealed that the date for the new PSAT/NMSQT® is fall 2015. This means that the new version of the SAT will be revealed around spring 2016.
 
