@@ -913,8 +913,8 @@ $(document).ready(function() {
         }
     }
 
-    // Load landlord sign up form JS.
-    LandlordSignUp();
+    // Load signup form JS.
+    SignUp();
 
 });
 

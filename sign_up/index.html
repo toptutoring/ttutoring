@@ -2,6 +2,7 @@
 layout: default
 title: Sign up
 permalink: /sign_up/
+weight: 1
 ---
 <div class="main-container">
   <section class="white-cover fullscreen">
@@ -10,7 +11,7 @@ permalink: /sign_up/
         <h2>Sign up</h2>
         <p>Already have an account?  <a href="http://app.toptutoring.com">Sign in.</a></p>
         <div class="form-container col-md-10 col-md-offset-1">
-          <form method="POST" name="sign-up" id="sign-up" class="signup-form">
+          <form method="POST" name="sign-up" id="user-sign-up" class="signup-form">
 
             <div class="col-md-6">
               <input class="form-control signup-input" type="text" name="name" id="first-name" placeholder="First Name" required>
@@ -34,10 +35,10 @@ permalink: /sign_up/
 
             <div class="col-md-12 select-option">
               <i class="ti-angle-down"></i>
-              <select class="wpcf7-form-control wpcf7-select">
+              <select class="wpcf7-form-control wpcf7-select" id="academic-type" required>
                 <option value="">Choose an academic type</option>
-                <option value="0">SAT</option>
-                <option value="1">PSAT</option>
+                <option value="SAT">SAT</option>
+                <option value="PSAT">PSAT</option>
               </select>
             </div>
 

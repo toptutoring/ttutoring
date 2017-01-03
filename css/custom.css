@@ -6,6 +6,8 @@
 .form-errors {
   position: relative;
   top: -10px;
+  float: left;
+  width: 100%;
 }
 
 nav.transparent {
@@ -191,4 +193,33 @@ textarea::-webkit-input-placeholder {
     position: static;
     transform: none;
   }
+}
+
+.sign-up-text {
+  margin-bottom: 0;
+  padding-top: 27px;
+  display: inline-block;
+}
+
+.sign-up-icon {
+  font-size: 80px;
+  display: inline-block;
+  color: #666;
+  padding-bottom: 10px;
+}
+
+.careers-link {
+  padding-top: 10px;
+}
+
+.career-title {
+  padding-bottom: 15px;
+}
+
+ .career-image.image-square{
+  height: 50vh;
+}
+
+.footer_block_wrapper .clearfix {
+  background-color: #ddd;
 }
