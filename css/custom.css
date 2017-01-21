@@ -233,3 +233,7 @@ textarea::-webkit-input-placeholder {
     -webkit-transform: none;
   }
 }
+
+.subjects-offered {
+  padding-top: 20px;
+}
