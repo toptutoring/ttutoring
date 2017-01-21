@@ -237,3 +237,13 @@ textarea::-webkit-input-placeholder {
 .subjects-offered {
   padding-top: 20px;
 }
+
+.submit-form-message {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-us-image {
+    padding-top: 50px;
+
+}
