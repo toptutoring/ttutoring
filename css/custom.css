@@ -247,3 +247,15 @@ textarea::-webkit-input-placeholder {
     padding-top: 50px;
 
 }
+
+.careers-padding {
+  padding: 70px 0;
+}
+
+.footer-top-padding {
+  padding-top: 100px;
+}
+
+.footer-img {
+  padding-left: 150px;
+}
