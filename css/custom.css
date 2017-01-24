@@ -233,3 +233,11 @@ textarea::-webkit-input-placeholder {
     -webkit-transform: none;
   }
 }
+
+@media (max-width: 1300px) {
+  .image-square {
+    height: auto;
+    max-height: 100000px;
+    padding-bottom: 48px;
+  }
+}
