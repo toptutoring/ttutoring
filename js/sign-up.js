@@ -21,9 +21,6 @@ function SignUp() {
       $.ajax({
         type: "POST",
         url: "http://app.toptutoring.com/api/signups/users",
-        headers: {
-        'api_application_key':'CVvMQ4ZU5FCRuSMzeM7c',
-        },
         data: { user: { name: $name, email: $email, password: $password , student_attributes: { academic_type: $academic_type } } },
         success: function(response) {
           // Submit message.
@@ -58,9 +55,6 @@ function SignUp() {
         $.ajax({
           type: "POST",
           url: "http://app.toptutoring.com/api/signups/tutors",
-          headers: {
-          'api_application_key':'CVvMQ4ZU5FCRuSMzeM7c',
-          },
           data: { user: { name: $name, email: $email, password: $password , tutor_attributes: { academic_type: $academic_type } } },
           success: function(response) {
             // Submit message.
