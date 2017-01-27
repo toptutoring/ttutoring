@@ -4,61 +4,39 @@ title: Blog
 permalink: /blog/
 weight: 5
 ---
-<div class="main-container">
-    <section>
-            <div class="container">
-                <div class="feed-item mb96 mb-xs-48">
-                    <div class="row mb16 mb-xs-0">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                            <h6 class="uppercase mb16 mb-xs-8">january 19th</h6>
-                            <h3>What To Look For In A Good Tutor</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="row mb32 mb-xs-16">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <img alt="Article Image" class="mb32 mb-xs-16" src="/img/books.jpg">
-                            <p class="lead">With all the tutors available to choose from both online and locally, selecting the right tutor can seem overwhelming. To help narrow down your list of qualified tutors, here are some qualities you should look for:</p>
-                            <p class="lead">
-                                1. Knowledgeable<br>As great or personable as a tutor may seem, if he doesn't know his stuff, it will be impossible for him to help you improve academically. To tutor effectively requires a high level mastery of the subject at hand, and especially for explaining the more difficult problems that the typical student may have trouble with. A student also is limited by what he can learn if the tutor himself is not familiar with the topic. Additionally, the time the tutor wastes struggling through problems is extra time YOU are paying for!</p><p class="lead">2. Accessible<br>To get the most out of your tutoring, the tutor has to be accessible. If the tutor is often not available for followup sessions, this is a red flag that you may not be getting the quality tutoring for the academic results you need.</p><p class="lead">3. Affordable<br>This point seems obvious, but many times people neglect this area and hire extravagantly expensive tutors, thinking that they are paying for 'quality' (or vice versa). While this may be true, the only problem is that if the tutor is not affordable, then you will constantly be in need of more tutoring but unable to do so. Oftentimes, online tutoring is cheaper than in-person and allows you to get a better rate per hour for the same quality tutoring.</p><p class="lead">4. Personable and Compassionate<br>Probably most important, a tutor who lacks these traits will be difficult to work with and will lack the motivation to push you to succeed. A good tutor will find satisfaction in helping you master the subject, tutoring sessions will be pleasant and the tutor a joy to work with.</p><p class="lead">With these traits in mind, I wish you success in your search for an excellent tutor!</p><p class="lead">by Jennifer P, O.D.  UC Berkeley Regents Scholar</p>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                            <a class="mb48 mb-xs-32 btn btn-lg" href="#">Share Article</a>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                
-            </div></section><section>
-            <div class="container">
-                <div class="feed-item mb96 mb-xs-48">
-                    <div class="row mb16 mb-xs-0">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                            <h6 class="uppercase mb16 mb-xs-8">Feburary 1st</h6>
-                            <h3>How To Study For A Final (Or Any Test)</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="row mb32 mb-xs-16">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                            <img alt="Article Image" class="mb32 mb-xs-16" src="/img/finals.jpg">
-                            <p class="lead">
-                                As someone who had to take tests throughout many years of school (college and four years of post college, to be exact!) &nbsp;I'd like to share with you all some tips I learned along the way.</p><p class="lead">
-                                Before hitting the books in panic, consider these ways to help your finals and test studying go efficiently and smoothly.</p>
-                            <p class="lead">
-                                1. Review Problems and Past Exams<br>Make sure to familiarize yourself with past homework problems and especially past exams, if you have access to them. In my experience, teachers rarely deviate from topics covered on homework and past exams. After all, they picked the assigned problems and made the exam problems themselves! Additionally, for the teacher it's more work to create completely new problems than to use similar ones to those that were used/given before. So review review review!<br></p><p class="lead">2. Take Advantage of Office Hours<br>Don't understand a problem, and none of your friends either? Make sure that you don't overlook office hours. Sure, it's a pain to drag yourself out of the house and takes extra scheduling, but you'll be thankful you went. Your teacher/professor will be available to not only answer questions you may be stuck on, but you can also glean wisdom from other students who may have good questions that you didn't consider yourself.&nbsp;<br></p><p class="lead">3. Practice Practice!<br>It's true what they say: practice makes perfect! Practice not only familiarizes you with the problems, but helps you see your weak spots as you encounter problems in different contexts and that are varied from each other. Additionally, come test day, practice helps you breeze through the test quickly and in turn have extra time to double check your answers. Double bonus!<br></p><p class="lead">4. Pay Attention<br>Lastly, nothing (not even a tutor!) can substitute for not having paid attention the entire semester in class. The optimal way for retention so you're not stuck cramming the night before is having been faithfully absorbing and learning the material throughout the semester. And, if you have any questions, you can ask the teacher as they come up, or get extra help from a tutor.<br></p><p class="lead">Strive to keep all these habits to ace your exam, stress-free!</p><p class="lead">by Jennifer P, O.D. &nbsp;UC Berkeley Regents Scholar</p>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                            <a class="mb48 mb-xs-32 btn btn-lg" href="#">Share Article</a>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                
-            </div></section></div>
+
+<section>
+  <div class="container">
+      <div class="feed-item mb-xs-48">
+        {% for post in site.posts %}
+          <div class="row mb16 mb-xs-0">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                  
+                  <h6 class="uppercase mb16 mb-xs-8">
+                  {{ post.date | date: "%b %-d, %Y" }}
+                  </h6>
+                  <h3>{{ post.title }}</h3>   
+                  <p>by {{ post.author}}           
+              </div>
+
+        </div>
+    </div>
+
+        <div class="row mb32 mb-xs-16 blog-font-size">
+             <div class="col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                <img alt="Article Image" class="mb32 mb-xs-16" src = "{{ site.baseurl }}/img/{{post.img}}" >
+                 <p class = "lead"> {{post.content}}
+            </div>
+               
+        </div>
+        {% endfor %}
+
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <a class="mb48 mb-xs-32 btn btn-lg" href="{{ page.previous.url }}">Previous Article</a>
+            </div>
+
+
+        </div>
+    </div>
+  </section>

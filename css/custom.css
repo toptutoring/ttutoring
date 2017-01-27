@@ -76,18 +76,6 @@ a, a:hover, a:visited, a.focus {
   color: #59a4f0;
 }
 
-.btn, .btn:visited {
-  color: #59a4f0;
-}
-
-.btn, .btn:hover, .btn:visited {
-  border: 2px solid #59a4f0;
-}
-
-.btn:hover {
-  background: #59a4f0;
-}
-
 .img-icon {
   max-width: 55%;
 }
@@ -258,4 +246,20 @@ textarea::-webkit-input-placeholder {
 
 .footer-img {
   padding-left: 150px;
+}
+
+.button-padding-top {
+  padding-top: 40px;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.blog-font-size {
+  font-size: 15px;
 }

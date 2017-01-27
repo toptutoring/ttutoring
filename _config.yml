@@ -17,4 +17,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: "blog/:title"
-excerpt_separator: <!--excerpt-->
+
+paginate: 1
+excerpt_separator: ""
