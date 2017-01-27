@@ -21,10 +21,7 @@ function SignUp() {
       $.ajax({
         type: "POST",
         url: "http://app.toptutoring.com/api/signups/users",
-        headers: {
-        'api_application_key':'CVvMQ4ZU5FCRuSMzeM7c',
-        },
-        data: JSON.stringify ({ user: { name: $name, email: $email, password: $password , student_attributes: { academic_type: $academic_type } } }),
+        data: { user: { name: $name, email: $email, password: $password , student_attributes: { academic_type: $academic_type } } },
         success: function(response) {
           // Submit message.
           $('.sign-up-container').html('<h3>Your account has been created.</h3><a class="btn btn-lg mb32 mt-xs-40" href="http://app.toptutoring.com/sign_in">Login</a>');
@@ -58,10 +55,7 @@ function SignUp() {
         $.ajax({
           type: "POST",
           url: "http://app.toptutoring.com/api/signups/tutors",
-          headers: {
-          'api_application_key':'CVvMQ4ZU5FCRuSMzeM7c',
-          },
-          data: JSON.stringify ({ user: { name: $name, email: $email, password: $password , tutor_attributes: { academic_type: $academic_type } } }),
+          data: { user: { name: $name, email: $email, password: $password , tutor_attributes: { academic_type: $academic_type } } },
           success: function(response) {
             // Submit message.
             $('.sign-up-container').html('<h3>Your account has been created.</h3><a class="btn btn-lg mb32 mt-xs-40" href="http://app.toptutoring.com/sign_in">Login</a>');

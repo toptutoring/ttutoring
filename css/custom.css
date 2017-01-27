@@ -233,7 +233,6 @@ textarea::-webkit-input-placeholder {
 
 .contact-us-image {
     padding-top: 50px;
-
 }
 
 .careers-padding {
@@ -263,3 +262,12 @@ textarea::-webkit-input-placeholder {
 .blog-font-size {
   font-size: 15px;
 }
+
+@media (max-width: 1300px) {
+  .image-square {
+    height: auto;
+    max-height: 100000px;
+    padding-bottom: 48px;
+  }
+}
+
