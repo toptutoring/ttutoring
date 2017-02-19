@@ -14,9 +14,13 @@ url: "http://toptutoring.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Gems
+gems: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
 permalink: "blog/:title"
 
-paginate: 1
+paginate: 3
+paginate_path: "blog/page:num"
 excerpt_separator: ""
