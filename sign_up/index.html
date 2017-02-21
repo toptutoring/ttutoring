@@ -12,8 +12,8 @@ exclude: true
           <div class="col-sm-6 col-md-5">
               <h4 class="uppercase">Sign Up</h4>
               <p>
-                  Already have an account? 
-                  <a href="http://app.toptutoring.com/sign_in">Sign in.</a>
+                  Already have an account?
+                  <a href="http://toptutoring.herokuapp.com/sign_in">Sign in.</a>
               </p>
               <img class = "contact-us-image" src = "/img/yellownotebook.jpg">
 
@@ -21,40 +21,42 @@ exclude: true
               </p>
           </div>
           <div class="col-sm-6 col-md-6 col-md-offset-1">
-                <form method="POST" name="sign-up" class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">     
+                <form method="POST" name="sign-up" id="user-sign-up" data-success="Thanks for your submission, we will be in touch shortly.">
 
                   <div class= col-md-6>
-                  <input type="text" class="validate-required" placeholder="First Name" required type="text" name="name" id="first-name" placeholder="First Name" required>
+                    <input type="text" class="validate-required" placeholder="First Name" required type="text" name="name" id="first-name" placeholder="First Name" required>
                   </div>
 
                   <div class = col-md-6>
-                  <input type="text" class="validate-required" name="name" id="last-name" placeholder="Last Name" required>
+                    <input type="text" class="validate-required" name="name" id="last-name" placeholder="Last Name" required>
                   </div>
 
                   <div class = col-md-12>
-                  <input type="text" class="validate-required validate-email" name="Email" id="email" placeholder="Email" required>
+                    <input type="text" class="validate-required validate-email" name="Email" id="email" placeholder="Email" required>
                   </div>
 
                   <div class = col-md-6>
-                  <input type="password" class="validate-required validate-password" name="password" id="password" placeholder="Create Password" required>
+                    <input type="password" class="validate-required validate-password" name="password" id="password" placeholder="Create Password" required>
                   </div>
 
                   <div class = col-md-6>
-                  <input type="password" class="validate-required validate-password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
+                    <input type="password" class="validate-required validate-password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
                   </div>
-                  
+
                   <div class = "col-md-12 select-option">
-                  <i class="ti-angle-down"></i>
-                  <select class="wpcf7-form-control wpcf7-select" id="academic-type" required>
-                  <option value="">Academic type</option>
-                    <option value="Test Prep">Test Prep</option>
-                    <option value="Academic">Subject Tutoring</option>
-                  </select>
+                    <i class="ti-angle-down"></i>
+                    <select class="wpcf7-form-control wpcf7-select" id="academic-type" required>
+                      <option value="">Academic type</option>
+                      <option value="Test Prep">Test Prep</option>
+                      <option value="Academic">Subject Tutoring</option>
+                    </select>
                   </div>
 
                   <div class ="col-md-12">
-                    <textarea class="validate-required" name="message" rows="4" placeholder="Additional Information"></textarea>
+                    <textarea name="message" rows="4" placeholder="Additional Information"></textarea>
                   </div>
+
+                  <div class="form-errors text-center"></div>
 
                   <div class="col-md-12">
                   <input class="btn btn-lg" type="submit" name="submit" id="signupSubmit" value="Sign up">
@@ -62,8 +64,7 @@ exclude: true
 
                 </form>
 
-            </div>    
+            </div>
         </div>
       </div>
 </section></div>
-
