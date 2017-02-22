@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What To Look For In A Good Tutor3"
+title:  "What To Look For In A Good Tutor"
 date:   January 19, 2017
 date_visible: true
 categories: Tutoring
@@ -22,5 +22,3 @@ This point seems obvious, but many times people neglect this area and hire extra
 Probably most important, a tutor who lacks these traits will be difficult to work with and will lack the motivation to push you to succeed. A good tutor will find satisfaction in helping you master the subject, tutoring sessions will be pleasant and the tutor a joy to work with.
 
 With these traits in mind, I wish you success in your search for an excellent tutor!
-
-
