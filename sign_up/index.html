@@ -2,8 +2,9 @@
 layout: default
 title: Sign up
 permalink: /sign_up/
-weight: 1
+exclude: true
 ---
+
 <div class="main-container">
   <section class="white-cover fullscreen">
     <div class="container v-align-transform  sign-up-container text-center">
@@ -17,40 +18,54 @@ weight: 1
               <input class="form-control signup-input" type="text" name="name" id="first-name" placeholder="First Name" required>
             </div>
 
-            <div class="col-md-6">
-              <input class="form-control signup-input" type="text" name="name" id="last-name" placeholder="Last Name" required>
+              <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><br>
+              </p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-md-offset-1">
+                <form method="POST" name="sign-up" id="user-sign-up" data-success="Thanks for your submission, we will be in touch shortly.">
+
+                  <div class= col-md-6>
+                    <input type="text" class="validate-required" placeholder="First Name" required type="text" name="name" id="first-name" placeholder="First Name" required>
+                  </div>
+
+                  <div class = col-md-6>
+                    <input type="text" class="validate-required" name="name" id="last-name" placeholder="Last Name" required>
+                  </div>
+
+                  <div class = col-md-12>
+                    <input type="text" class="validate-required validate-email" name="Email" id="email" placeholder="Email" required>
+                  </div>
+
+                  <div class = col-md-6>
+                    <input type="password" class="validate-required validate-password" name="password" id="password" placeholder="Create Password" required>
+                  </div>
+
+                  <div class = col-md-6>
+                    <input type="password" class="validate-required validate-password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
+                  </div>
+
+                  <div class = "col-md-12 select-option">
+                    <i class="ti-angle-down"></i>
+                    <select class="wpcf7-form-control wpcf7-select" id="academic-type" required>
+                      <option value="">Academic type</option>
+                      <option value="Test Prep">Test Prep</option>
+                      <option value="Academic">Subject Tutoring</option>
+                    </select>
+                  </div>
+
+                  <div class ="col-md-12">
+                    <textarea name="message" rows="4" placeholder="Additional Information"></textarea>
+                  </div>
+
+                  <div class="form-errors text-center"></div>
+
+                  <div class="col-md-12">
+                  <input class="btn btn-lg" type="submit" name="submit" id="signupSubmit" value="Sign up">
+                  </div>
+
+                </form>
+
             </div>
-
-            <div class="col-md-12">
-              <input class="form-control signup-input" type="text" name="email" id="email" placeholder="Email" required>
-            </div>
-
-            <div class="col-md-6">
-              <input class="form-control signup-input" type="password" name="password" id="password" placeholder="Create a Password" required>
-            </div>
-
-            <div class="col-md-6">
-              <input class="form-control signup-input" type="password" name="password_confirm" id="password-confirm" placeholder="Confirm Password" required>
-            </div>
-
-            <div class="col-md-12 select-option">
-              <i class="ti-angle-down"></i>
-              <select class="wpcf7-form-control wpcf7-select" id="academic-type" required>
-                <option value="">Choose an academic type</option>
-                <option value="Test Prep">Test Prep</option>
-                <option value="Academic">Academic</option>
-              </select>
-            </div>
-
-            <div class="form-errors"></div>
-
-            <div class="col-md-12">
-              <input class="btn btn-lg btn-blue" type="submit" name="submit" id="signupSubmit" value="Sign up">
-            </div>
-
-          </form>
         </div>
       </div>
-    </div>
-  </section>
-</div>
+</section></div>

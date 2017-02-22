@@ -1,13 +1,40 @@
 ---
 layout: default
 ---
+<section>
+  <div class="container">
+      <div class="feed-item mb96 mb-xs-48">
+          <div class="row mb16 mb-xs-0">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                  {% for post in paginator.posts %}                  
+                  <h6 class="uppercase mb16 mb-xs-8">{{ post.date | date: "%b %-d, %Y" }}
+                  </h6>
+                  <h3><a href="{{ post.url }}">{{ post.title }}</a>
+                  </h3>
+
+                  {% endfor %}
+              </div>
+
+            </div>
+            <div class="post-content">
+              {{ content }}
+             </div>
+        </div>
+    </div>
+  </section>
+
+                  
+
+
+<!-- 
+
+
+
+
+
 <article2 class="post2">
 
   <section class="cover fullscreen">
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-    <h1 class="">Posts</h1>
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
@@ -16,6 +43,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
+
       {% endfor %}
     </ul>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
@@ -24,25 +52,12 @@ layout: default
         <div class="col-md-4
         col-md-offset-4 col-sm-8
         col-sm-offset-2">
-          Col md 4 in row
         </div>
         <div class="row">
           <div class="col-md-4
           col-md-offset-4 col-sm-8
           col-sm-offset-2">
-            Col md 4 in row2
+           
           </div>
           <!--end
-            of
-            row-->
-        </div>
-        <!--end
-          of
-          container-->
-
-    <div class="post-content">
-      {{ content }}
-    </div>
-  </section>
-
-</article2>
+ --> -->

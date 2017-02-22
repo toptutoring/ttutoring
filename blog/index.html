@@ -1,48 +1,48 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
-weight: 4
+weight: 5
+exclude: true
 ---
-<hr class="mb0">
-<section class="light-wrapper normal-padding vc_row wpb_row vc_row-fluid light-wrapper normal-padding">
+
+<section>
   <div class="container">
-    <div class="row">
-      <div class="wpb_column vc_column_container col-md-12">
-        <div class="vc_column-inner">
-          <div class="wpb_wrapper">
-            <div class="feed-item mb96 mb-xs-48">
-              {% for post in site.posts %}
-                <div class="row mb16 mb-xs-0">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                      {% if post.date_visible %}
-                        <h6 class="uppercase mb16 mb-xs-8">{{ post.date | date: '%B %d, %Y' }}</h6>
-                      {% endif %}
-                      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    </div>
-                </div>
+      <div class="feed-item mb-xs-48">
+        {% for post in paginator.posts %}
+          <div class="row mb16 mb-xs-0">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 
-                <div class="row mb32 mb-xs-16">
-                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <img width="1024" height="683" src="{{site.url}}/img/{{ post.img }}" class="mb32 mb-xs-16 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
-                    <p class="lead">
-                      {{ post.excerpt }}
-                    </p>
-                  </div>
-                </div>
+                  <h6 class="uppercase mb16 mb-xs-8">
+                  {{ post.date | date: "%b %-d, %Y" }}
+                  </h6>
+                  <h3>{{ post.title }}</h3>
+                  <p>by {{ post.author}}
+              </div>
 
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                        <a class="mb48 mb-xs-32 btn btn-lg" href="{{ post.url }}">Read Article</a>
-                        <hr>
-                    </div>
-                </div>
-              {% endfor %}
-
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-</section>
+
+        <div class="row mb32 mb-xs-16 blog-font-size">
+             <div class="col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                <img alt="Article Image" class="mb32 mb-xs-16" src = "{{ site.baseurl }}/img/{{post.img}}" >
+                 <p class = "lead"> {{post.content}}
+            </div>
+
+        </div>
+        {% endfor %}
+
+        {% if paginator.previous_page or paginator.next_page %}
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                {% if paginator.previous_page %}
+                  <a class="mb48 mb-xs-32 btn btn-lg previous-button" href="{{ paginator.previous_page_path }}">Previous Article</a>
+                {% endif %}
+                {% if paginator.next_page %}
+                  <a class="mb48 mb-xs-32 btn btn-lg next-button" href="{{ paginator.next_page_path }}">Next Article</a>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        </div>
+    </div>
+  </section>

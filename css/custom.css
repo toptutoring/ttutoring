@@ -76,18 +76,6 @@ a, a:hover, a:visited, a.focus {
   color: #59a4f0;
 }
 
-.btn, .btn:visited {
-  color: #59a4f0;
-}
-
-.btn, .btn:hover, .btn:visited {
-  border: 2px solid #59a4f0;
-}
-
-.btn:hover {
-  background: #59a4f0;
-}
-
 .img-icon {
   max-width: 55%;
 }
@@ -234,10 +222,170 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-@media (max-width: 1300px) {
+.subjects-offered {
+  padding-top: 20px;
+}
+
+.submit-form-message {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-us-image {
+    padding-top: 50px;
+}
+
+.careers-padding {
+  padding: 70px 0;
+}
+
+.footer-top-padding {
+  padding-top: 30px;
+}
+
+.footer-img {
+  padding-left: 150px;
+}
+
+.button-padding-top {
+  padding-top: 40px;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.blog-font-size {
+  font-size: 15px;
+}
+
+@media (max-width: 990px) {
   .image-square {
     height: auto;
     max-height: 100000px;
     padding-bottom: 48px;
+  }
+}
+
+.parallax .slides li > div.background-image-holder {
+  height: 120vh;
+}
+
+.page-title .col-sm-12 {
+  float: none;
+}
+
+.page-title .breadcrumb.breadcrumb-2 {
+  margin-bottom: 0;
+  margin-top: 25px;
+  position: static;
+}
+
+.next-button {
+  margin-left: 15px;
+}
+
+.feature.feature-1 {
+  min-height: 265px;
+}
+
+.feature.feature-3 i {
+  margin-bottom: 16px;
+}
+
+.fade-on-hover.footer-link {
+  padding-left: 10px;
+}
+
+.footer-2 .rights {
+  padding-right: 20px;
+  float: right
+}
+
+.footer-2 ul li {
+  display:table-cell;
+  position: relative;
+  padding: 0 10px;
+}
+
+footer.bg-dark a {
+  color: #fefefe;
+  opacity: 1;
+}
+
+/* Keep this for future improvments */
+footer.footer-2 li:after {
+  content: "|";
+  position: absolute;
+  left: calc(100% - 4px);
+  top: 0;
+  color: #fefefe;
+  visibility: hidden;
+}
+
+footer.footer-2 li:last-child:after {
+  display: none;
+}
+
+.footer-left ul {
+  float: left;
+  margin-bottom: 0px;
+}
+
+.footer-2 .row.fade-half {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.career-image .last-block {
+  padding: 6%;
+}
+
+@media (max-width: 990px) {
+  .career-image .content {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+  }
+  .career-image .wpb_content_element {
+    transform: translate(0, -50%);
+    position: relative;
+    top: 50%;
+  }
+
+  .career-image.image-square {
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 920px) {
+  .footer-2 .footer-left {
+    text-align: center;
+    display: block;
+  }
+
+  .footer-2 .rights {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+
+  .footer-2 ul {
+    display: inline-block;
+    float: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .img-on-right {
+    margin-top: 13%;
   }
 }
