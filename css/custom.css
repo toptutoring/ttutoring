@@ -271,10 +271,6 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.parallax .slides li > div.background-image-holder {
-  height: 120vh;
-}
-
 .page-title .col-sm-12 {
   float: none;
 }
@@ -388,4 +384,7 @@ footer.footer-2 li:last-child:after {
   .img-on-right {
     margin-top: 13%;
   }
+}
+.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+  height: calc(100% + 200px);
 }
