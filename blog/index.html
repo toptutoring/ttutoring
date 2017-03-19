@@ -7,42 +7,39 @@ exclude: true
 
 <section>
   <div class="container">
-      <div class="feed-item mb-xs-48">
-        {% for post in paginator.posts %}
-          <div class="row mb16 mb-xs-0">
-              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+    <div class="feed-item mb-xs-48">
+      {% for post in paginator.posts %}
+        <div class="row mb16 mb-xs-0">
+          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 
-                  <h6 class="uppercase mb16 mb-xs-8">
-                  {{ post.date | date: "%b %-d, %Y" }}
-                  </h6>
-                  <h3>{{ post.title }}</h3>
-                  <p>by {{ post.author}}
-              </div>
-
+            <h6 class="uppercase mb16 mb-xs-8">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </h6>
+            <h3>{{ post.title }}</h3>
+            <p>by {{ post.author}}
+          </div>
         </div>
-    </div>
 
         <div class="row mb32 mb-xs-16 blog-font-size">
-             <div class="col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-1">
-                <img alt="Article Image" class="mb32 mb-xs-16" src = "{{ site.baseurl }}/img/{{post.img}}" >
-                 <p class = "lead"> {{post.content}}
-            </div>
-
+          <div class="col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-1">
+            <img alt="Article Image" class="mb32 mb-xs-16" src = "{{ site.baseurl }}/img/{{post.img}}" >
+            <p class = "lead"> {{post.content}}
+          </div>
         </div>
-        {% endfor %}
+      {% endfor %}
 
-        {% if paginator.previous_page or paginator.next_page %}
-         <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                {% if paginator.previous_page %}
-                  <a class="mb48 mb-xs-32 btn btn-lg previous-button" href="{{ paginator.previous_page_path }}">Previous Article</a>
-                {% endif %}
-                {% if paginator.next_page %}
-                  <a class="mb48 mb-xs-32 btn btn-lg next-button" href="{{ paginator.next_page_path }}">Next Article</a>
-                {% endif %}
-            </div>
-        {% endif %}
-
+      {% if paginator.previous_page or paginator.next_page %}
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+            {% if paginator.previous_page %}
+            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ paginator.previous_page_path }}">Previous Article</a>
+            {% endif %}
+            {% if paginator.next_page %}
+            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ paginator.next_page_path }}">Next Article</a>
+            {% endif %}
+          </div>
         </div>
+      {% endif %}
     </div>
-  </section>
+  </div>
+</section>

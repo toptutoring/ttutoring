@@ -388,3 +388,39 @@ footer.footer-2 li:last-child:after {
 .parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
   height: calc(100% + 200px);
 }
+
+.btn.btn-blue {
+  background: #59a4f0;
+  border: 2px solid #59a4f0;
+  margin-right: 0;
+  color: #fff;
+}
+
+.image-bg .btn.btn-blue {
+  border-color: #59a4f0;
+}
+
+.btn-white:hover, .image-bg .btn:hover, .image-bg .btn:visited:hover {
+  border-color: #fff;
+}
+
+.btn-lg-blue {
+  border: 2px solid #59a4f0;
+  color: #59a4f0;
+}
+
+.btn-lg-blue:visited {
+  color: #59a4f0;
+}
+
+.btn-lg-blue:hover {
+  background: #59a4f0;
+}
+
+.icon-tabs .active .tab-title i {
+  color: #59a4f0;
+}
+
+.icon-tabs .active .tab-title {
+  color: #59a4f0;
+}
