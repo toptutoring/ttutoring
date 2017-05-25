@@ -1,45 +1,33 @@
 ---
 layout: default
 title: Blog
-weight: 5
-exclude: true
+weight: 4
+permalink: /blog/
 ---
 
 <section>
   <div class="container">
     <div class="feed-item mb-xs-48">
-      {% for post in paginator.posts %}
-        <div class="row mb16 mb-xs-0">
-          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+      <ul>
+      {% for post in site.posts %}
+      <div class="row mb24 mb-xs-0">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 
-            <h6 class="uppercase mb16 mb-xs-8">
+          <li>
+            <h3 class="mb8"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="uppercase mb8 mb-xs-8">
               {{ post.date | date: "%b %-d, %Y" }}
-            </h6>
-            <h3>{{ post.title }}</h3>
-            <p>by {{ post.author}}
-          </div>
-        </div>
+            </p>
+            <p>by {{ post.author }}</p>
+           
+            {{ post.excerpt }}
+          </li>
 
-        <div class="row mb32 mb-xs-16 blog-font-size">
-          <div class="col-md-7 col-md-offset-3 col-sm-10 col-sm-offset-1">
-            <img alt="Article Image" class="mb32 mb-xs-16" src = "{{ site.baseurl }}/img/{{post.img}}" >
-            <p class = "lead"> {{post.content}}
-          </div>
         </div>
+      </div>
+
       {% endfor %}
-
-      {% if paginator.previous_page or paginator.next_page %}
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-            {% if paginator.previous_page %}
-            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ paginator.previous_page_path }}">Previous Article</a>
-            {% endif %}
-            {% if paginator.next_page %}
-            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ paginator.next_page_path }}">Next Article</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endif %}
+      </ul>
     </div>
   </div>
 </section>
