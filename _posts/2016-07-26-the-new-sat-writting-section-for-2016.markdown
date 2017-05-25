@@ -6,6 +6,7 @@ date_visible: false
 categories: sat tutoring
 img: beagle_reading.jpg
 author: TP
+excerpt_separator: <!--excerpt-->
 ---
 Following is a quotation from Dave Coleman, the president of the College Board, concerning the new SAT format:
 

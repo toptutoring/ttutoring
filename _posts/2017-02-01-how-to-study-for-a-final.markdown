@@ -6,8 +6,12 @@ date_visible: true
 categories: Studying
 img: finals.jpg
 author: Jennifer P, O.D., UC Berkeley Regents Scholar
+excerpt_separator: <!--excerpt-->
 ---
+
 As someone who had to take tests throughout many years of school (college and four years of post college, to be exact!)  I'd like to share with you all some tips I learned along the way.
+
+<!--excerpt-->
 
 Before hitting the books in panic, consider these ways to help your finals and test studying go efficiently and smoothly.
 

@@ -6,8 +6,11 @@ date_visible: true
 categories: Tutoring
 img: books.jpg
 author: Jennifer P, O.D., UC Berkeley Regents Scholar
+excerpt_separator: <!--excerpt-->
 ---
 With all the tutors available to choose from both online and locally, selecting the right tutor can seem overwhelming. To help narrow down your list of qualified tutors, here are some qualities you should look for:
+
+<!--excerpt-->
 
 1. Knowledgeable <br>
 As great or personable as a tutor may seem, if he doesn't know his stuff, it will be impossible for him to help you improve academically. To tutor effectively requires a high level mastery of the subject at hand, and especially for explaining the more difficult problems that the typical student may have trouble with. A student also is limited by what he can learn if the tutor himself is not familiar with the topic. Additionally, the time the tutor wastes struggling through problems is extra time YOU are paying for!
