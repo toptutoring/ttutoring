@@ -23,6 +23,10 @@ gems: [jekyll-paginate]
 markdown: kramdown
 excerpt_separator: <!--more-->
 
+# pagination settings for blog
+paginate: 3
+paginate_path: "blog/page:num"
+
 # Collections
 collections:
   tutors:
