@@ -21,8 +21,10 @@ gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
-permalink: "blog/:title"
+excerpt_separator: <!--more-->
 
-paginate: 3
-paginate_path: "blog/page:num"
-excerpt_separator: <!--endexcerpt-->
+# Collections
+collections:
+  tutors:
+    output: true
+    title: Top Tutoring

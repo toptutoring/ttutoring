@@ -19,16 +19,17 @@ weight: 3
   <section>
     <div class="container">
       <div class="row">
-        {% for tutor in site.tutors %}
+        {% assign highlights = site.tutors | where: "categories", "highlight" %}
+        {% for tutor in highlights limit:3 %}
         <div class="col-md-4 col-sm-6">
           <div class="image-tile outer-title text-center">
             <a href="{{ tutor.url }}"><img alt="Pic" src="{{ tutor.img }}"></a>
             <div class="title mb16">
               <h5 class="uppercase mb0">{{ tutor.name }}</h5>
-              <span>Creative Director</span>
+              <span>{{ tutor.job }}</span>
             </div>
             <p class="mb0">
-            {{ tutor.content }}
+            {{ tutor.excerpt }}
             </p>
           </div>
         </div>
