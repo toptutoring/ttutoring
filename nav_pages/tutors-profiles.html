@@ -23,7 +23,7 @@ weight: 3
         {% for tutor in highlights limit:3 %}
         <div class="col-md-4 col-sm-6">
           <div class="image-tile outer-title text-center">
-            <a href="{{ tutor.url }}"><img alt="Pic" src="{{ tutor.img }}"></a>
+            <a href="{{ tutor.url }}"><img alt="{{ tutor.img }}" src="{{ tutor.img }}"></a>
             <div class="title mb16">
               <h5 class="uppercase mb0">{{ tutor.name }}</h5>
               <span>{{ tutor.job }}</span>
