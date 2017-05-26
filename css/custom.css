@@ -302,6 +302,11 @@
   height: calc(100% + 200px);
 }
 
+.postcontainer {
+  float: none;
+  margin: auto;
+}
+
 .select-option i {
   right: 30px;
 }

@@ -6,12 +6,12 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <section>
       <div class="row">
-        <div class="col-md-9 mb-xs-24" style="float:none;margin:auto;">
+        <div class="col-md-9 mb-xs-24 postcontainer">
           <div class="post-snippet mb64">
             <div class="post-title">
-              <h4 class="inline-block">
+              <h3 class="inline-block">
                 <span class="post-title" itemprop="name headline">{{ page.title }}</span>
-              </h4>
+              </h3>
             </div>
             <ul class="post-meta">
               {% if page.author %}
@@ -36,13 +36,15 @@ layout: default
               <div class="clearfix"></div>
             </div>
 
-            {% if page.previous %}
-            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">Previous Article</a>
-            {% endif %}
-            {% if page.next %}
-            <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">Next Article</a>
-            {% endif %}
+            <div class="text-center">
+              {% if page.previous %}
+              <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+              {% endif %}
 
+              {% if page.next %}
+              <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">{{ page.next.title }}</a>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>
