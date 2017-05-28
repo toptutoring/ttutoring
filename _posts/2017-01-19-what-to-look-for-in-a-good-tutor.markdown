@@ -3,7 +3,7 @@ layout: post
 title:  "What To Look For In A Good Tutor"
 date:   January 19, 2017
 date_visible: true
-categories: Tutoring
+categories: tutoring
 img: books.jpg
 author: Jennifer P, O.D., UC Berkeley Regents Scholar
 ---

@@ -1,8 +1,8 @@
 ---
 layout: profile
-name: Reilly Olson
+name: Reilly
 job: UC Berkeley Student
-img: /img/tutors/reilly-olson.jpg
+img: /img/tutors/reilly.jpg
 categories: highlight
 ---
 

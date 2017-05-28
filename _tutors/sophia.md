@@ -1,8 +1,8 @@
 ---
 layout: profile
-name: Sophia Arce
+name: Sophia
 job: UC Berkeley Student
-img: /img/tutors/sophia-arce.jpg
+img: /img/tutors/sophia.jpg
 categories: highlight
 ---
 
