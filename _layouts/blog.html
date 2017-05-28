@@ -1,63 +1,62 @@
 ---
 layout: default
 ---
+
 <section>
   <div class="container">
-      <div class="feed-item mb96 mb-xs-48">
-          <div class="row mb16 mb-xs-0">
-              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                  {% for post in paginator.posts %}                  
-                  <h6 class="uppercase mb16 mb-xs-8">{{ post.date | date: "%b %-d, %Y" }}
-                  </h6>
-                  <h3><a href="{{ post.url }}">{{ post.title }}</a>
-                  </h3>
+    <div class="row">
+      <div class="col-md-9">
+        {{ content }}
+      </div>
 
-                  {% endfor %}
-              </div>
-
-            </div>
-            <div class="post-content">
-              {{ content }}
-             </div>
+      <div class="col-md-3 hidden-sm">
+        <div class="widget">
+          <h6 class="title">Blog Categories</h6>
+          <hr>
+          <ul class="link-list">
+            {% for category in site.categories %}
+            <li>
+              <a href="{{ site.url | append:"/blog/categories/" | append:category[0] }}">{{ category[0] | capitalize }}</a>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
+        <!--end of widget-->
+        <div class="widget">
+          <h6 class="title">Recent Posts</h6>
+          <hr>
+          <ul class="link-list recent-posts">
+            {% for post in site.posts limit:4 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <span class="date">{{ post.date | date: "%a, %b, %d, %y" }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <!--end of widget-->
+      </div>
+
     </div>
-  </section>
+    <div class="row">
+      {% if paginator.total_pages > 1 %}
+      <div class="text-center">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page_path == "/page1" %}
+        <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ site.baseurl | append:"/blog"}}">Newer Articles</a>
+        {% else %}
+        <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ paginator.previous_page_path }}">Newer Articles</a>
+        {% endif %}
+        {% endif %}
 
-                  
+        {% if paginator.next_page %}
+        <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ paginator.next_page_path }}">Older Articles</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
 
 
-<!-- 
 
-
-
-
-
-<article2 class="post2">
-
-  <section class="cover fullscreen">
-    <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-
-      {% endfor %}
-    </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-    <div class="container v-align-transform">
-      <div class="row">
-        <div class="col-md-4
-        col-md-offset-4 col-sm-8
-        col-sm-offset-2">
-        </div>
-        <div class="row">
-          <div class="col-md-4
-          col-md-offset-4 col-sm-8
-          col-sm-offset-2">
-           
-          </div>
-          end
- -->
