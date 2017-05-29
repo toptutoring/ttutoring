@@ -15,10 +15,10 @@ layout: default
             </div>
             <ul class="post-meta">
               {% if page.author %}
-              <li>
-                <i class="ti-user"></i>
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
-              </li>
+                <li>
+                  <i class="ti-user"></i>
+                  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
+                </li>
               {% endif %}
               <li>
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
@@ -26,23 +26,23 @@ layout: default
             </ul>
 
             {% if page.img %}
-            <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
+              <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
             {% endif %}
 
             <div class="post-content">
               <p class="lead">
-              {{ content }}
+                {{ content }}
               </p>
               <div class="clearfix"></div>
             </div>
 
             <div class="text-center">
               {% if page.previous %}
-              <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">Previous Post</a>
+                <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">Previous Post</a>
               {% endif %}
 
               {% if page.next %}
-              <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">Next Post</a>
+                <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">Next Post</a>
               {% endif %}
             </div>
           </div>
