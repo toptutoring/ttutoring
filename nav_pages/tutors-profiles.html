@@ -22,11 +22,16 @@ weight: 3
         {% assign highlights = site.tutors | where: "categories", "highlight" %}
         {% for tutor in highlights limit:3 %}
         <div class="col-md-4 col-sm-6">
-          <div class="image-tile outer-title square-div">
-            <a href="{{ tutor.url }}"><img alt="{{ tutor.img }}" src="{{ tutor.img }}"></a>
+          <div class="image-caption hover-caption image-tile outer-title square-div">
+            <a href="{{ tutor.url }}">
+              <img alt="{{ tutor.img }}" src="{{ tutor.img }}">
+              <div class="caption">
+                <p>Learn more about {{ tutor.name }}</p>
+              </div>
+            </a>
           </div>
             <div class="title mb16 text-center">
-              <h5 class="uppercase mb0">{{ tutor.name }}</h5>
+              <a href="{{ tutor.url }}"><h4 class="uppercase mb0">{{ tutor.name }}</h4></a>
               <span>{{ tutor.job }}</span>
             </div>
             <p class="mb0">
