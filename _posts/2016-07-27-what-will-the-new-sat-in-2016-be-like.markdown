@@ -11,7 +11,7 @@ The College Board has revealed that the date for the new PSAT/NMSQT® is fall 20
 
 The new president of the College Board, Dave Coleman, is the co-author of the Common Core English/Language Arts Exams. Since becoming president, he has sought to implement changes to the SAT, especially in the Writing and Critical Reading sections.
 
-<!--excerpt-->
+<!--more-->
 
 His [comments](https://www.brookings.edu/events/standardized-testing-and-the-common-core/) on standardized testing and the common core describe how he has had “problems” with the essay portion of the SAT and his dislike of the SAT's emphasis on vocabulary words that do not have much use in ordinary life.
 

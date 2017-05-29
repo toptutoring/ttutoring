@@ -69,7 +69,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           {% endunless %}
                         {% endfor %}
                         <li>
-                          <a class="page-link logo-dark" href="/blog/">Blog</a>
+                          <a class="page-link logo-dark" href="{{ site.baseurl | append:'/blog' }}">Blog</a>
+                        </li>
+                        <li>
+                          <a class="page-link logo-dark" href="{{ site.baseurl | append:'/contact' }}">Contact</a>
                         </li>
                         <li>
                           <a class="page-link logo-dark" href="https://app.toptutoring.com/sign_in">Sign in</a>
