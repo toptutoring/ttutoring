@@ -2,11 +2,13 @@
 layout: blog
 title: Blog
 exclude: true
+permalink: /blog/categories/sat
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.categories['sat'] %}
 <div class="post-snippet mb64">
   <div class="post-title">
+    <span class="label date-label">{{ post.date | date: "%a, %b %d, %y" }}</span>
     <a href="{{ post.url }}">
       <h4 class="inline-block">{{ post.title }}</h4>
     </a>

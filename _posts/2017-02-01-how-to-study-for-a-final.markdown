@@ -3,7 +3,7 @@ layout: post
 title:  "How To Study For A Final (Or Any Test)"
 date:   February 1, 2017
 date_visible: true
-categories: Studying
+categories: studying
 img: finals.jpg
 author: Jennifer P, O.D., UC Berkeley Regents Scholar
 ---

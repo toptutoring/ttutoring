@@ -1,54 +1,46 @@
 ---
-layout: default
+layout: blog
 ---
 
-<div class="container">
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <section>
-      <div class="row">
-        <div class="col-md-9 mb-xs-24 postcontainer">
-          <div class="post-snippet mb64">
-            <div class="post-title">
-              <h3 class="inline-block">
-                <span class="post-title" itemprop="name headline">{{ page.title }}</span>
-              </h3>
-            </div>
-            <ul class="post-meta">
-              {% if page.author %}
-                <li>
-                  <i class="ti-user"></i>
-                  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
-                </li>
-              {% endif %}
-              <li>
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-              </li>
-            </ul>
+<div class="post-snippet mb64">
+  <article>
+    <div class="post-title">
+      <h3 class="inline-block">
+        <span class="post-title" itemprop="name headline">{{ page.title }}</span>
+      </h3>
+    </div>
+    <ul class="post-meta">
+      {% if page.author %}
+      <li>
+        <i class="ti-user"></i>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
+      </li>
+      {% endif %}
+      <li>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      </li>
+    </ul>
 
-            {% if page.img %}
-              <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
-            {% endif %}
+    {% if page.img %}
+    <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
+    {% endif %}
 
-            <div class="post-content">
-              <p class="lead">
-                {{ content }}
-              </p>
-              <div class="clearfix"></div>
-            </div>
+    <div class="post-content">
+      <p class="lead">
+      {{ content }}
+      </p>
+      <div class="clearfix"></div>
+    </div>
 
-            <div class="text-center">
-              {% if page.previous %}
-                <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">Previous Post</a>
-              {% endif %}
+    <div class="text-center">
+      {% if page.previous %}
+      <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue previous-button" href="{{ page.previous.url }}">Previous Post</a>
+      {% endif %}
 
-              {% if page.next %}
-                <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">Next Post</a>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      {% if page.next %}
+      <a class="mb48 mb-xs-32 btn btn-lg btn-lg-blue next-button" href="{{ page.next.url }}">Next Post</a>
+      {% endif %}
+    </div>
   </article>
 </div>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-592c8482ca63f984"></script>
