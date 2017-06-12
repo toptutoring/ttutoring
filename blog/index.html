@@ -7,7 +7,6 @@ exclude: true
 {% for post in paginator.posts %}
 <div class="post-snippet mb64">
   <div class="post-title">
-    <span class="label date-label">{{ post.date | date: "%a, %b %d, %y" }}</span>
     <a href="{{ post.url }}">
       <h4 class="inline-block">{{ post.title }}</h4>
     </a>
