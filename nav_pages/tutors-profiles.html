@@ -20,7 +20,7 @@ weight: 3
     <div class="container">
       <div class="row flex">
         {% assign highlights = site.tutors | where: "categories", "highlight" %}
-        {% for tutor in highlights limit:6 %}
+        {% for tutor in highlights limit:9 %}
         <div class="col-md-4 col-sm-6">
           <div class="image-caption hover-caption image-tile outer-title square-div">
             <a href="{{ tutor.url }}">
