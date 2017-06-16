@@ -3,6 +3,7 @@ layout: profile
 name: Julia
 job: UC Berkeley Student
 img: /img/tutors/julia.jpg
+thumbnail: /img/tutors/julia-thumbnail.jpg
 categories: highlight
 ---
 

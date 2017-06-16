@@ -2,7 +2,8 @@
 layout: profile
 name: Kimball
 job: UC Berkeley Student
-img: /img/tutors/kimball.png
+img: /img/tutors/kimball.jpg
+thumbnail: /img/tutors/kimball-thumbnail.jpg
 categories: highlight
 ---
 
