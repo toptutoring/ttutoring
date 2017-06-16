@@ -5,11 +5,11 @@ layout: blog
 <div class="post-snippet mb64">
   <article>
     <div class="post-title">
-      <h3 class="inline-block">
+      <h3 class="inline-block mb12">
         <span class="post-title" itemprop="name headline">{{ page.title }}</span>
       </h3>
     </div>
-    <ul class="post-meta">
+    <ul class="post-meta mb12">
       {% if page.author %}
       <li>
         <i class="ti-user"></i>
@@ -20,6 +20,10 @@ layout: blog
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       </li>
     </ul>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-592c8482ca63f984"></script> 
+    <div class="addthis_inline_share_toolbox mb12"></div>
 
     {% if page.img %}
     <img width="1024" height="683" src="{{site.url}}/img/{{ page.img }}" class="mb24 wp-post-image" alt="blog-single-4" sizes="(max-width: 1024px) 100vw, 1024px">
@@ -43,4 +47,3 @@ layout: blog
     </div>
   </article>
 </div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-592c8482ca63f984"></script>
