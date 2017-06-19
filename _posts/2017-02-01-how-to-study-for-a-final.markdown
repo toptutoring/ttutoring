@@ -5,7 +5,8 @@ date:   February 1, 2017
 date_visible: true
 categories: studying
 img: finals.jpg
-author: Jennifer P, O.D., UC Berkeley Regents Scholar
+author: Jennifer, O.D., UC Berkeley Regents Scholar
+author_link: /tutors/jennifer.html
 ---
 
 As someone who had to take tests throughout many years of school (college and four years of post college, to be exact!)  I'd like to share with you all some tips I learned along the way.

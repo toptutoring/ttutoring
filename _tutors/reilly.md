@@ -3,6 +3,7 @@ layout: profile
 name: Reilly
 job: UC Berkeley Student
 img: /img/tutors/reilly.jpg
+thumbnail: /img/tutors/reilly-thumbnail.jpg
 categories: highlight
 ---
 

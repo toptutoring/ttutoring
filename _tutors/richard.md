@@ -3,6 +3,7 @@ layout: profile
 name: Richard
 job: UC Berkeley Student
 img: /img/tutors/richard.jpg
+thumbnail: /img/tutors/richard-thumbnail.jpg
 categories: highlight
 ---
 

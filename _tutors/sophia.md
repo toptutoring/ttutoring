@@ -3,6 +3,7 @@ layout: profile
 name: Sophia
 job: UC Berkeley Student
 img: /img/tutors/sophia.jpg
+thumbnail: /img/tutors/sophia-thumbnail.jpg
 categories: highlight
 ---
 
