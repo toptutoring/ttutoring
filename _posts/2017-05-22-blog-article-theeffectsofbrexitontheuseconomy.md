@@ -29,8 +29,6 @@ Second, Brexit created fear of an interrupted global market. One of the things t
 
 To understand the effects of the shift in aggregate demand, take a look at the graph below. Because loss in consumption and investment lowers national output from Y1 to Y2, the aggregate demand curve shifts left from AD1 to AD2, bringing the price level down from P1 to P2. The equilibrium moved from point A to point B left of the long-run AS, meaning the economy is in a contraction. Eventually, the U.S. suppliers will adjust and bring output back to Y1, and the short-run AS will shift right from AS1 to AS2, bringing price levels down to P3 and equilibrium to point C. As you can see on the graph, in the long run, the effects of Brexit is that it drops the price level from P1 to P3. Again this deflation can cause higher unemployment rates in the U.S.
 
-![N|Solid](https://photos-3.dropbox.com/t/2/AABvyb9qkocfmy7jQYO8tBkylXvdtHOG_Vn9KPg6cFA6yA/12/639086433/png/32x32/1/_/1/2/brexitgraph.png/ELOV35cFGOcBIAcoBw/OHPtMojOZK8mAbM4sgsz760KRVJPN74Y-A8nDaE9Fn4?size=2048x1536&size_mode=3)
-
 Lastly, Brexit caused a change in fiscal policy in the U.S. As a result of recovering from the 2008 recession, “the Federal Reserve projected that it would raise rates four times” but after Brexit, “several Fed committee members were only calling for one rate hike in the wake of weak growth and slowing job gains” (Gillespie). Increased interest rates are good because it encourages people to save and invest more money. But since Brexit has already caused a deflation, there is already a drop in money supply, and increasing rates will cause the money supply to drop even more.
 
 ### Lower interest rates
