@@ -291,6 +291,10 @@
   width: 100%;
 }
 
+.mb12 {
+  margin-bottom: 12px !important;
+}
+
 .next-button {
   margin-left: 15px;
 }
