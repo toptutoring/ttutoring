@@ -1,9 +1,9 @@
 ---
 layout: profile
-name: Meekyoung
+name: Michelle
 job: UC Berkeley Student
-img: /img/tutors/meekyoung.jpg
-thumbnail: /img/tutors/meekyoung-thumbnail.jpg
+img: /img/tutors/michelle.jpg
+thumbnail: /img/tutors/michelle-thumbnail.jpg
 categories: highlight
 ---
 
