@@ -11,13 +11,15 @@ author_link: /tutors/Zhimin.html
 
 A UC Berkeley student-governed meme page on Facebook called “UC Berkeley Memes for Edgy Teens” started out as a way for Cal students to relieve stress, but in 2016, it gained popularity outside of the university. Although UC Berkeley only has a 40,000 student population, the meme page has about 100,000 members. Shortly after, meme pages started popping up at many major universities, mostly in Ivy leagues and mini Ivy leagues like Stanford, Harvard, UCLA, USC, Duke, Yale, etc.
 
-###### Most of these pages have strict guidelines.
+### Most of these pages have strict guidelines.
 
 1)	In order to join the group, you have to be approved by an admin of the page. Usually, they will verify that you actually attend the school. But with the number of members in these groups, it is safe to say this is a very lenient rule.
+
 2)	You cannot re-post or re-use memes.
+
 3)	Memes need to be specific to the university so only students of that university will understand its relevance. General memes are frowned upon.
 
-###### So why are these meme pages popping up in the most competitive colleges, and how have they changed university culture?
+### So why are these meme pages popping up in the most competitive colleges, and how have they changed university culture?
 
 #### Making memes helps relieve stress during finals week.
 
@@ -36,9 +38,9 @@ Recently there were questions raised about the disappearance of UC Berkeley’s 
 
 ####	Memes promote school spirit by keeping rivalries strong in more than just a sporty way.
 
-![rivalry meme]({{site.url}}/img/cal_stanford_meme.jpg)
+![rivalry meme]({{site.url}}/img/emoji_stanford_meme.jpg)
 
-*Meme posted by Zoe Portnoff on "UC Berkeley Memes for Edgy Teens" Facebook group*
+*Meme posted by Yev Barkalov on "UC Berkeley Memes for Edgy Teens" Facebook group*
 
 #### Most importantly, it unifies students by allowing students to communicate and relate to common struggles.
 
