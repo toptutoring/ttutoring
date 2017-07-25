@@ -3,10 +3,10 @@ layout: post
 title:  "The Effects of Brexit on the U.S. Economy"
 date:   June 26, 2017
 date_visible: false
-categories: Economics
-img: 
-author: Molly
-author_link: /tutors/molly.html
+categories: economics
+img:
+author: Zhimin
+author_link: /tutors/zhimin.html
 ---
 
 At [Top Tutoring](https://toptutoring.com), we aim to help students not only learn academic concepts but to apply them to real life. Today we'll be focusing how to use Economics in light of current events. One of the large economic events that has occured recently was _Brexit_ or the _exit_ of _Britain_ from the European Union.

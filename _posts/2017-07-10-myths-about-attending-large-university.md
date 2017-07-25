@@ -3,15 +3,15 @@ layout: post
 title:  "Myths About Attending a Large University"
 date:   July 10, 2017
 date_visible: false
-categories: Economics
-img: 
+categories: economics
+img:
 author: Molly
 author_link: /tutors/molly.html
 ---
 
-When I was applying to college, I avoided schools with large populations like the plague. This tendency was not born of my own preferences but was rather a result of the warnings I had received from classmates and online forums. These warnings instilled in me a fear that if I attended a large university, I would get lost in the numbers, I would miss out on the standard ‘college experience.’ Despite this fear, I ended up choosing to attend UC Berkeley, a school made up of roughly 40,000 students. 
+When I was applying to college, I avoided schools with large populations like the plague. This tendency was not born of my own preferences but was rather a result of the warnings I had received from classmates and online forums. These warnings instilled in me a fear that if I attended a large university, I would get lost in the numbers, I would miss out on the standard ‘college experience.’ Despite this fear, I ended up choosing to attend UC Berkeley, a school made up of roughly 40,000 students.
 <!--more-->
-Among the many things that my first year of college taught me, I learned that the warnings I had received when applying to school were not as accurate as I had once believed them to be. With this article, I hope to debunk some of the myths surrounding what it’s like to go to a university with a large population. 
+Among the many things that my first year of college taught me, I learned that the warnings I had received when applying to school were not as accurate as I had once believed them to be. With this article, I hope to debunk some of the myths surrounding what it’s like to go to a university with a large population.
 
 ### 1. All your classes will have hundreds of students
 
@@ -26,4 +26,3 @@ Creating several small communities out of one large community was perhaps my fav
 Forming relationships with professors is not a result of the size of your school but is rather a result of your own initiative. Though in-class participation is a good start to a relationship with any professor, the real key is office hours. Even at large universities, professors are always available to meet with undergraduate students during their office hours, and it is here that students can pose questions and partake in discussions with their favorite professors. No matter the university, there will always be professors who are eager to get to know their students, for any learning experience is enriched when both teacher and student are equally engaged in the process. Forming relationships with your professors is a vital aspect of widening your academic life.
 
 If you are in the process of applying to university, don’t be afraid to consider schools with large populations! Remember that there are many other important factors to consider when deciding if a school is right for you other than just its size and that a large university has its own unique benefits to offer.
-
