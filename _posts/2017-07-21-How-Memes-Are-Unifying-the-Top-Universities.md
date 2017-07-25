@@ -3,7 +3,7 @@ layout: post
 title:  "How Memes Are Unifying the Top Universities"
 date:   July 21, 2017
 date_visible: false
-categories: College
+categories: college
 img:
 author: Zhimin
 author_link: /tutors/Zhimin.html
