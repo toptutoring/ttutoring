@@ -10,6 +10,7 @@ author_link: /tutors/Zhimin.html
 ---
 
 A UC Berkeley student-governed meme page on Facebook called “UC Berkeley Memes for Edgy Teens” started out as a way for Cal students to relieve stress, but in 2016, it gained popularity outside of the university. Although UC Berkeley only has a 40,000 student population, the meme page has about 100,000 members. Shortly after, meme pages started popping up at many major universities, mostly in Ivy leagues and mini Ivy leagues like Stanford, Harvard, UCLA, USC, Duke, Yale, etc.
+<!--more-->
 
 ### Most of these pages have strict guidelines.
 
