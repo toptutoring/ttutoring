@@ -335,6 +335,11 @@
   margin: auto;
 }
 
+.phone-number {
+  font-size: 150%;
+  font-weight: 700;
+}
+
 .select-option i {
   right: 30px;
 }
