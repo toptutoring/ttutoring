@@ -5,8 +5,7 @@ date:   January 19, 2017
 date_visible: true
 categories: tutoring
 img: books.jpg
-author: Jennifer P, O.D., UC Berkeley Regents Scholar
-author_link: /tutors/jennifer.html
+author: Jennifer, OD & UC Berkeley Regents Scholar
 ---
 With all the tutors available to choose from both online and locally, selecting the right tutor can seem overwhelming. To help narrow down your list of qualified tutors, here are some qualities you should look for:
 

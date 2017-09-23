@@ -5,8 +5,7 @@ date:   August 19, 2017
 date_visible: true
 categories: college
 img: blog/university.jpg
-author: Jennifer, O.D., UC Berkeley Regents Scholar
-author_link: /tutors/jennifer.html
+author: Jennifer, OD & UC Berkeley Regents Scholar
 ---
 
 Congrats! After all the all-nighters, studying, and tests, you've been accepted to college! Now what? Assuming you got accepted to more than one college (or are just deciding where to apply), here are some important factors to consider when choosing a college:
