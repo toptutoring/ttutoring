@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is This Divisible By...?"
-date: September 28, 2017
+date: November 2, 2017
 date_visible: true
 categories: math
 img: blog/divisible.jpg
