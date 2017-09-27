@@ -3,7 +3,7 @@ layout: post
 title:  "The New SAT Writing Section For 2016"
 date:   July 26, 2016
 date_visible: false
-categories: sat tutoring
+categories: sat tutoring studying
 img: beagle_reading.jpg
 author: TP
 author_link: /tutors/tp.html

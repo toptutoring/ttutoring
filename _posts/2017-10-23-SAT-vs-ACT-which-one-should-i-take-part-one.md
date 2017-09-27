@@ -3,7 +3,7 @@ layout: post
 title:  "SAT vs ACT - Which One Should I Take? (Part 1)"
 date: October 23, 2017
 date_visible: true
-categories: studying, sat, ACT
+categories: studying sat ACT
 img: blog/SATvsACT.png
 author: Nelson
 ---

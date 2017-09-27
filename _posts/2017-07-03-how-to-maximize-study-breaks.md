@@ -3,7 +3,7 @@ layout: post
 title:  "How to Maximize Your Study Breaks"
 date:   July 3, 2017
 date_visible: false
-categories: economics
+categories: economics studying college
 img:
 author: Molly
 author_link: /tutors/molly.html

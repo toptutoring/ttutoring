@@ -3,7 +3,7 @@ layout: post
 title:  "Myths About Attending a Large University"
 date:   July 10, 2017
 date_visible: false
-categories: economics
+categories: economics college
 img:
 author: Molly
 author_link: /tutors/molly.html

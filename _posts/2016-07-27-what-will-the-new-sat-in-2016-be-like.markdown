@@ -3,7 +3,7 @@ layout: post
 title:  "What Will the New SAT in 2016 Be Like?"
 date:   July 27, 2016
 date_visible: true
-categories: sat tutoring
+categories: sat tutoring studying
 img: SAT_scantron.jpg
 author: TP
 author_link: /tutors/tp.html
