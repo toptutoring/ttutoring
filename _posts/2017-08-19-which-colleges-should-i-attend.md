@@ -12,9 +12,6 @@ Congrats! After all the all-nighters, studying, and tests, you've been accepted 
 
 <!--more-->
 
-![university]({{site.url}}/img/blog/university.jpg){:  .example-class}
-
-
 #### Location
 Do you prefer the comforts and familiarity of being close to home, or do you prefer the excitement of trekking out to new lands? Each college town also comes with it's unique quirks and charms. You'll be living in this town (or near it) for the next four years, so it's important that you not only love the school, but are ok with the local sights and attractions, whether it be the peaceful farmland pasture or the hubbub of urban life. If you haven't visited already, take a trip to the college and get a feel for the atmosphere and places you might be living.
 
