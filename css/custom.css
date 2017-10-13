@@ -1,15 +1,43 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 /* Please keep alphabetized */
 
+.footer-2 .footer-left ul {
+  min-width: 160px;
+  width: 25%;
+}
+
+.footer-2 .footer-left ul li {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .footer-2 .footer-left ul {
+    width: 50%;
+  }
+
+  .footer-2 .footer-left ul li {
+    width: 49%;
+  }
+}
+
+@media (min-width: 1090px) {
+  .footer-2 .footer-left ul {
+    min-width: 700px;
+  }
+
+  .footer-2 .footer-left ul li {
+    width: auto;
+  }
+}
+
 @media (max-width: 920px) {
   .footer-2 .footer-left {
-    text-align: center;
     display: block;
   }
 
   .footer-2 .rights {
     float: none;
-    text-align: center;
     display: block;
   }
 
