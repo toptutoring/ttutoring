@@ -2,7 +2,7 @@
 layout: post
 title:  "Word of the Week: Bombastic"
 excerpt: This week's word of the week is Bombastic <br><br>
-date: October 31, 2017
+date: November 6, 2017
 date_visible: true
 categories: english
 img: blog/bomb.png
