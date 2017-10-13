@@ -2,7 +2,7 @@
 layout: post
 title:  "Word of the Week: Dogmatic"
 excerpt: This week's word of the week is  Dogmatic <br><br>
-date: October 12, 2017
+date: November 20, 2017
 date_visible: true
 categories: english
 img: blog/dogmatic.jpg

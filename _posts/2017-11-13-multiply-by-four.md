@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mental Math: Multiply by 4"
-date: October 19, 2017
+date: November 13, 2017
 date_visible: true
 categories: math
 img: blog/four.jpg
