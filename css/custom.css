@@ -317,6 +317,10 @@
   opacity: 0.7;
 }
 
+.logo {
+  max-height: 75%;
+}
+
 .map iframe {
   width: 100%;
 }
@@ -364,8 +368,10 @@
 }
 
 .phone-number {
-  font-size: 150%;
-  font-weight: 700;
+  font-size: 100%;
+  font-weight: 500;
+  padding-left: 10px;
+  letter-spacing: 1px;
 }
 
 .select-option i {
