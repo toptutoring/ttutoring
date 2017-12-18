@@ -1,0 +1,37 @@
+---
+layout: blog
+title: Blog
+exclude: true
+permalink: /blog/categories/memorization
+---
+
+{% for post in site.categories['Memorization'] %}
+<div class="post-snippet mb64">
+  <div class="post-title">
+    <a href="{{ post.url }}">
+      <h4 class="inline-block">{{ post.title }}</h4>
+    </a>
+  </div>
+  <ul class="post-meta">
+    <li>
+      <i class="ti-user"></i>
+      <span>Written by
+        <a href="{{ post.author_profile }}">{{ post.author }}</a>
+      </span>
+    </li>
+    {% if post.categories %}
+    <li>
+      <i class="ti-tag"></i>
+      <span>Categorized as
+        {% for tag in post.categories %}
+        <a href="{{ site.baseurl | append:"/blog/category/" | append:tag }}">{{ tag | capitalize }}</a>
+        {% endfor %}
+      </span>
+    </li>
+    {% endif %}
+  </ul>
+  <hr>
+  {{ post.excerpt }}
+  <a class="btn btn-sm btn-blue btn-sm-blue" href="{{ post.url }}">Read More</a>
+</div>
+{% endfor %}
