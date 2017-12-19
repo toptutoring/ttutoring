@@ -2,9 +2,10 @@
 layout: blog
 title: Blog
 exclude: true
+permalink: /blog/categories/memorization
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.categories['Memorization'] %}
 <div class="post-snippet mb64">
   <div class="post-title">
     <a href="{{ post.url }}">
@@ -12,7 +13,12 @@ exclude: true
     </a>
   </div>
   <ul class="post-meta">
-
+    <li>
+      <i class="ti-user"></i>
+      <span>Written by
+        <a href="{{ post.author_profile }}">{{ post.author }}</a>
+      </span>
+    </li>
     {% if post.categories %}
     <li>
       <i class="ti-tag"></i>
