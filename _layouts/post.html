@@ -9,18 +9,6 @@ layout: blog
         <span class="post-title" itemprop="name headline">{{ page.title }}</span>
       </h3>
     </div>
-    <ul class="post-meta mb12">
-      {% if page.author %}
-      <li>
-        <i class="ti-user"></i>
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by {{ page.author }}</span></span>
-      </li>
-      {% endif %}
-      <li>
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      </li>
-    </ul>
-
     <div class="addthis_inline_share_toolbox mb12"></div>
 
     {% if page.img %}
@@ -46,7 +34,7 @@ layout: blog
     </div>
   </article>
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-592c8482ca63f984"></script> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-592c8482ca63f984"></script>
 
 </div>
