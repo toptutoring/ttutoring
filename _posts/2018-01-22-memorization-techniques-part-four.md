@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Study Faster and Smarter - Peg Method (Part Four)
+title:  "How to Study Faster and Smarter - Peg Method (Part Four)"
 date: January 15, 2018
 date_visible: true
 categories: studying memorization
@@ -12,7 +12,7 @@ In previous weeks, we introduced various methods of memorization such as rote me
 
 <!--more-->
 
-In order for you to utilize this system, you'll need to do a bit of work upfront. First, you must memorize words, or "peg" words associated with each numerical value. You can make up your own words (I'll explain the systems and how they work later), or use the standard ones listed below.  Afterwards, you can associate each item you are trying to memorize with these "peg" words you have now committed to memory.
+In order for you to utilize this system, you'll need to do a bit of work upfront. First, you must memorize words, or "peg" words associated with each numerical value. You can make up your own words or use the standard ones listed below (I'll explain the systems and how they work later).  Afterwards, you can associate each item you are trying to memorize with these "peg" words you have now committed to memory.
 
 Currently, two main systems of peg words exist: the **Rhyming Pegs** and **Major Pegs**.
 
@@ -48,4 +48,4 @@ As you might have noticed, the number of items you can remember is not limited t
 
 A huge benefit of this system is being able to recall items at any point in the list and by numerical position without having to run through an entire sequence of events in your mind (such as in the chain method we explained last week). Despite the initial work required to commit the pegs to memory, you'll soon see how useful this method is for your studying and memory needs.
 
-Next week, we'll be exploring a method similar to the peg system, but with even more applications such as for memorizing long strings of numbers (ever wonder how those memory athletes do it?) Stay tuned and find out!
+Next week, we'll be exploring a method similar to the peg system, but with even more applications such as for memorizing long strings of numbers (ever wonder how those memory athletes do it?). Stay tuned and find out!

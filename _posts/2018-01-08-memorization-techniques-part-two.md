@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Study Faster and Smarter - Mnemonics (Part Two)
+title:  "How to Study Faster and Smarter - Mnemonics (Part Two)"
 date: January 8, 2018
 date_visible: true
 categories: studying memorization
@@ -22,6 +22,6 @@ You can arrange letters (most often the first letter of the word of what you are
 This works similarly to acronyms. Instead of forming the first letters of the facts you want to memorize into a word, you can instead form them into words in a sentence. An example is the sentence "Every Good Boy Does Fine" for memorizing the the notes on a musical staff. The first letter of each word corresponds to the musical note in order on the lines of the treble staff (E, G, B, D, F)
 
 ##### Images
-Images can also be formed into mnemonics. An example of this is using the knuckles on your hand to remember the number of days in each month. The knuckles and grooves represent the months in order, and every month that falls on a knuckle has 31 days, while the months that fall on the grooves have 3o days (with 28 days for the month of February)
+Images can also be formed into mnemonics. An example of this is using the knuckles on your hand to remember the number of days in each month. The knuckles and grooves represent the months in order, and every month that falls on a knuckle has 31 days, while the months that fall on the grooves have 30 days (with 28 days for the month of February)
 
 So there you have it! Try and see if you can come up with your own mnemonics in these categories next time you are studying! Next week, we'll start to explore some other less well known (but extremely effective) methods of memorization.
