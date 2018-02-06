@@ -20,34 +20,36 @@ exclude: true
                     </p>
                 </div>
                 <div class="col-sm-6 col-md-5 col-md-offset-1">
-                  <script type="text/javascript">var submitted=false;</script>
-                  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
-                   {document.getElementById('gform').innerHTML = ''; document.getElementById('success-message').innerHTML = 'Thank you! Your message has been received.';}"></iframe>
-                   <div id='success-message' class="submit-form-message"></div>
-                   <div id='gform'>
-                     <form action="https://docs.google.com/forms/d/1jdebJ6lksNeJK3BPMofnqNmWyl_IWo9PBc7PvdCXHaE/formResponse" method="POST" id="ss-form" class="contact-us-form"target="hidden_iframe" onsubmit="submitted=true;">
-                       <input type="text" class="validate-required form-control signup-input name" jsname="YPqjbf" name="entry.1144948821" aria-describedby="i.desc.726993212 i.err.726993212" value=""  id="entry_1144948821" dir="auto" aria-label="Name  " title="" placeholder="Full Name">
+                    <script type="text/javascript">
+                        function submitForm() {
+                            document.getElementById('gform').innerHTML = '';
+                            document.getElementById('success-message').innerHTML = 'Thank you! Your message has been received.';
+                        }
+                    </script>
+                        <div id='success-message' class="submit-form-message"></div>
+                        <div id='gform'>
+                            <form action="https://docs.google.com/forms/d/1jdebJ6lksNeJK3BPMofnqNmWyl_IWo9PBc7PvdCXHaE/formResponse" method="POST" id="ss-form" class="contact-us-form"target="hidden_iframe" onsubmit="submitForm();">
+                                <input type="text" required="required" class="validate-required form-control signup-input name" jsname="YPqjbf" name="entry.1144948821" aria-describedby="i.desc.726993212 i.err.726993212" value=""  id="entry_1144948821" dir="auto" aria-label="Name  " title="" placeholder="Full Name">
 
                         <div class = "col-md-8 no-padding-left">
-                          <input type="text" name="entry.1850342302" jsname="YPqjbf" value="" class="ss-q-short valid mail form-control signup-input email" aria-describedby="i.desc.1861065760 i.err.1861065760" id="entry_1850342302" dir="auto" aria-label="Email  " title="" placeholder="Email">
+                          <input type="text" name="entry.1850342302" required="required" jsname="YPqjbf" value="" class="ss-q-short valid mail form-control signup-input email" aria-describedby="i.desc.1861065760 i.err.1861065760" id="entry_1850342302" dir="auto" aria-label="Email  " title="" placeholder="Email">
                         </div>
 
                           <div class = "col-md-4 no-padding-right">
-                            <input type="text" name="entry.1990649636" jsname="YPqjbf" aria-describedby="i.desc.1443178175 i.err.1443178175" value="" aria-label="ZipCode" dir="auto" name="entry.1990649636" value="" title="" placeholder="Zip Code" class="form-control signup-input">
+                            <input type="text" name="entry.1990649636" required="required" jsname="YPqjbf" aria-describedby="i.desc.1443178175 i.err.1443178175" value="" aria-label="ZipCode" dir="auto" name="entry.1990649636" value="" title="" placeholder="Zip Code" class="form-control signup-input">
                           </div>
 
-                          <input type="text" name="entry.1316140474" jsname="YPqjbf" aria-describedby="i.desc.1253279784 i.err.1253279784" value="" class="ss-q-short valid phone2 form-control signup-input" id="entry_1316140474" dir="auto" aria-label="Phone  " title="" placeholder="Phone">
+                          <input type="text" name="entry.1316140474" required="required" jsname="YPqjbf" aria-describedby="i.desc.1253279784 i.err.1253279784" value="" class="ss-q-short valid phone2 form-control signup-input" id="entry_1316140474" dir="auto" aria-label="Phone  " title="" placeholder="Phone">
 
-                          <input type="text" name="entry.1385223114" jsname="YPqjbf" aria-describedby="i.desc.563891140 i.err.563891140"  value="" class="ss-q-short valid subject form-control signup-input subject" id="entry_1385223144" dir="auto" aria-label="Subject" title="" placeholder="Subject">
+                          <input type="text" name="entry.1385223114" required="required" jsname="YPqjbf" aria-describedby="i.desc.563891140 i.err.563891140"  value="" class="ss-q-short valid subject form-control signup-input subject" id="entry_1385223144" dir="auto" aria-label="Subject" title="" placeholder="Subject">
 
-                          <textarea placeholder="Message" name="entry.1976405812" jsname="YPqjbf" class="ss-q-long valid signup-input message" id="entry_1976405812 message" dir="auto" aria-label="Message" rows="7"></textarea>
+                          <textarea placeholder="Message (Optional)" name="entry.1976405812" jsname="YPqjbf" class="ss-q-long valid signup-input message" id="entry_1976405812 message" dir="auto" aria-label="Message" rows="7"></textarea>
 
                           <button type="submit" class="btn btn-blue">Send Message</button>
                       </form>
                     </div>
                 </div>
             </div>
-
         </div>
-
-    </section></div>
+    </section>
+</div>
