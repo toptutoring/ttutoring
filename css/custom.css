@@ -440,6 +440,10 @@ img {
   height: auto;
 }
 
+img.infographic {
+  max-width: 75%;
+
+}
 input.btn-blue {
   background: #59a4f0;
   border: 2px solid #59a4f0;
